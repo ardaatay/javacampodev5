@@ -1,6 +1,6 @@
 package odev5.core.adapters;
 
-public class MailManager implements MailService {
+public class MailManagerAdapter implements MailService {
 
 	@Override
 	public void send(String from, String message) {

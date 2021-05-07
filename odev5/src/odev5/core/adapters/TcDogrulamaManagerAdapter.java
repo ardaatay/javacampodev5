@@ -2,7 +2,7 @@ package odev5.core.adapters;
 
 import odev5.nviService.Nvi;
 
-public class TcDogrulamaManager implements TcDogrulamaService {
+public class TcDogrulamaManagerAdapter implements TcDogrulamaService {
 
 	@Override
 	public boolean dogrula(String tcNo) {
